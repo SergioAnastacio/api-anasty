@@ -1,15 +1,15 @@
+>[!IMPORTANT] Proyect on development , documentation be ready on relese.
+
+[![CI Pipeline](https://github.com/SergioAnastacio/api-anasty/actions/workflows/main.yml/badge.svg)](https://github.com/SergioAnastacio/api-anasty/actions/workflows/main.yml)
 # Proyecto API Anasty
 
 ## Descripción
-Este proyecto es una API diseñada para  Proporciona [describir las características principales] y está destinada a [describir el propósito general].
+Este proyecto es una API diseñada para acortar urls Proporciona dos endpoints  para el acortar la url y para obtener una url y está destinada para ser eficiente , soportar alta carga y ser fiable.
 
 ## Características
-- Característica 1: [Descripción de la característica 1]
-- Característica 2: [Descripción de la característica 2]
-- Característica 3: [Descripción de la característica 3]
-
-## Propósito
-El propósito de esta API es [describir el propósito específico]. Está diseñada para [describir cómo se espera que los usuarios utilicen la API].
+- Acortar una url: el usuario registrara una url para procesar y devolver una url acortada.
+- Redireccion de una url acortada: Al obtener una url acortada ser capaz de redireccionar a la url original
+- Registrar usuarios: Usuarios pueden registrarse y gestionar sus urls
 
 ## Cómo usarlo
 1. Clonar el repositorio:

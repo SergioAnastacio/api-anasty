@@ -1,19 +1,19 @@
 {
   "compilerOptions": {
-    "target": "ES2022",
-    "moduleResolution": "node",
+    "target": "ES6",
     "module": "ESNext",
     "outDir": "./dist",
     "rootDir": "./src",
     "strict": true,
     "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
     "baseUrl": "./",
     "paths": {
       "*": ["src/*"]
     }
   },
-  "include": ["src/**/*"],
+  "include": ["src"],
   "exclude": ["node_modules"]
 }

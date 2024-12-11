@@ -13,8 +13,6 @@ RUN npm install --production
 # Copiar el resto de la aplicación
 COPY . .
 
-# Compilar la aplicación
-RUN npm run build
 
 # Exponer el puerto de la aplicación
 EXPOSE 3000
