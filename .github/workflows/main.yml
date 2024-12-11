@@ -126,7 +126,7 @@ jobs:
     - name: Build Docker image
       run: |
         REPO_NAME=$(echo "ghcr.io/${{ github.repository }}" | tr '[:upper:]' '[:lower:]')
-        docker build -t $REPO_NAME:latest .
+        docker build -t $REPO_NAME:latest -f Dockerfile.prod .
 
     - name: Push Docker image
       run: |
