@@ -26,7 +26,8 @@ export const redirectUrlHandler = async (req: Request, res: Response) => {
 	const { shortUrl } = req.params;
 	const originalUrl = await redirectUrl.execute(shortUrl);
 	if (originalUrl) {
-		res.redirect(301, originalUrl);
+		//TODO: Implementar redirección 301
+		res.status(200).json({ originalUrl });
 	} else {
 		res.status(404).send("URL not found");
 	}
